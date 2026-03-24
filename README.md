@@ -36,7 +36,6 @@ This project explores the application of **Decision Tree Classification** to pre
 | Property | Value |
 |---|---|
 | **Dataset Name** | Smart Grid Stability Augmented |
-| **Source** | [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Electrical+Grid+Stability+Simulated+Data+) |
 | **File** | `data/smart_grid_stability_augmented.csv` |
 | **Instances** | 60,000 |
 | **Features** | 14 numerical attributes |
