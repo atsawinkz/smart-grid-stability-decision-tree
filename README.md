@@ -77,7 +77,7 @@ smart-grid-stability-decision-tree/
 
 ```bash
 git clone <your-repository-url>
-cd LAB_03
+cd smart-grid-stability-decision-tree
 ```
 
 ### 2. Create a Virtual Environment *(Recommended)*
