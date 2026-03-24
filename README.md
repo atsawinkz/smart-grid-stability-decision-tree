@@ -48,7 +48,7 @@ This project explores the application of **Decision Tree Classification** to pre
 ## Project Structure
 
 ```text
-LAB_03/
+smart-grid-stability-decision-tree/
 │
 ├── data/
 │   └── smart_grid_stability_augmented.csv    # Raw training dataset
