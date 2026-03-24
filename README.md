@@ -4,12 +4,9 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?style=flat-square&logo=scikit-learn)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-> **LAB 03 — Introduction to Machine Learning | KU 01418362-65**  
-> A professional lab exercise implementing a Decision Tree Classifier with hyperparameter tuning via Grid Search CV on the Smart Grid Stability dataset.
-
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Project Structure](#project-structure)
@@ -20,7 +17,7 @@
 
 ---
 
-## 🔍 Project Overview
+## Project Overview
 
 This project explores the application of **Decision Tree Classification** to predict smart grid stability status. The analysis includes:
 
@@ -34,7 +31,7 @@ This project explores the application of **Decision Tree Classification** to pre
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Property | Value |
 |---|---|
@@ -49,7 +46,7 @@ This project explores the application of **Decision Tree Classification** to pre
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 LAB_03/
@@ -59,9 +56,6 @@ LAB_03/
 │
 ├── notebooks/
 │   └── Decision_Tree_smart_grid_stability_augmented.ipynb  # Main experiment notebook
-│
-├── src/
-│   └── train_model.py                        # Standalone training script
 │
 ├── outputs/
 │   ├── smart_grid_stability_augmented1.dot   # Decision tree source (Graphviz)
@@ -74,7 +68,7 @@ LAB_03/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### Prerequisites
 - Python >= 3.12
@@ -104,9 +98,9 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+## Usage
 
-### Option A — Run the Jupyter Notebook (Recommended)
+### Run the Jupyter Notebook
 
 ```bash
 jupyter notebook notebooks/Decision_Tree_smart_grid_stability_augmented.ipynb
@@ -114,17 +108,9 @@ jupyter notebook notebooks/Decision_Tree_smart_grid_stability_augmented.ipynb
 
 Execute all cells top-to-bottom to reproduce the full analysis pipeline.
 
-### Option B — Run the Training Script
-
-```bash
-python src/train_model.py
-```
-
-This script trains the best Decision Tree model and saves evaluation metrics to the console.
-
 ---
 
-## 📈 Results
+## Results
 
 The model achieved near-perfect accuracy after GridSearchCV tuning:
 
@@ -138,7 +124,7 @@ The model achieved near-perfect accuracy after GridSearchCV tuning:
 
 ---
 
-## ⚠️ Special Requirements
+## Special Requirements
 
 | Requirement | Notes |
 |---|---|
@@ -148,7 +134,3 @@ The model achieved near-perfect accuracy after GridSearchCV tuning:
 | **sklearn version** | >= 1.3.0 (the `max_features='auto'` parameter is deprecated and removed; use `'sqrt'` or `'log2'`) |
 
 ---
-
-## 📝 License
-
-This project is for educational purposes as part of **01418362-65 Introduction to Machine Learning** at Kasetsart University.
